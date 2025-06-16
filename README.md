@@ -1,8 +1,6 @@
-# onibus-prova
-
-# Creditos
-utiliza o [localizar-aluno](https://github.com/pedro-escola/localizar-aluno) como base <br>
-[clique aqui pra ir pro coisa](https://pedro-escola.github.io/localizar-aluno/) <br>
+# Encontrar Ônibus
+coisa que voce ve uns onibus ai no brasil-sil-sil
+[clique aqui pra ir pro coisa](https://pedro-escola.github.io/onibus-prova/) <br>
 <br>
 
 ## créditos:

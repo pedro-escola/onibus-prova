@@ -30,6 +30,7 @@ adicionarOnibus("Jordão", "Macapá", "30/06/2025", "05/07/2025", "Carlônibus",
 
 adicionarOnibus("São Paulo", "São José", "03/07/2025", "13/07/2025", "Seu José", 7, "Leito");
 adicionarOnibus("Macapá", "Porto Alegre", "03/07/2025", "13/08/2025", "Marcão Ônibus", 24, "Leito-cama");
+adicionarOnibus("Santa Cruz da Vitória", "São José", "05/07/2025", "12/07/2025", "Baianinho", 12, "Tradicional");
 adicionarOnibus("Ibaiti", "Curitiba", "06/07/2025", "10/07/2025", "Carlônibus", 5, "Convencional");
 adicionarOnibus("São José", "Ibaiti", "15/07/2025", "20/07/2025", "Seu José", 8, "Convencional");
 
@@ -46,6 +47,7 @@ adicionarOnibus("Rio de Janeiro", "Goiânia", "30/09/2025", "15/09/2025", "Marc�
 adicionarOnibus("Epitaciolândia", "Jordão", "05/10/2025", "07/10/2025", "Relâmpago", 6, "Executivo");
 adicionarOnibus("São José", "Xique-Xique", "05/10/2025", "13/10/2025", "Marcão Ônibus", 8, "Semi-leito");
 adicionarOnibus("Wanderley", "Wagner", "06/10/2025", "10/10/2025", "Baianinho", 11, "Tradicional");
+adicionarOnibus("Xique-Xique", "Goiânia", "10/10/2025", "15/10/2025", "Marcão Ônibus", 14, "Semi-leito");
 
 function compareNames(name1, name2) {
     if (name1.toString().toLowerCase() == name2.toString().toLowerCase()) {
