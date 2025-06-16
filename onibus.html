@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>encontre seus onibuses</title>
+        <link rel="stylesheet" href="assets/styles.css">
+        <script src="assets/main.js"></script>
+    </head>
+    
+    <body onload="main()">
+        <form name="onibusList">
+            <table class="tabelaPrincipal">
+                <tr>
+                    <td>
+                        <label for="ondeOnibus">Partida:</label> <br>
+
+                        <select name="onde" id="ondeOnibus">
+                            <option value=""></option>
+                        </select>
+                    </td>
+
+                    <td>
+                        <label for="fimOnibus">Destinação:</label> <br>
+
+                        <select name="fim" id="fimOnibus">
+                            <option value=""></option>
+                        </select>
+                    </td>
+
+                    <td>
+                        <label for="idaOnibus">Data de ida:</label> <br>
+
+                        <select name="ida" id="idaOnibus">
+                            <option value=""></option>
+                        </select>
+                    </td>
+
+                    <td>
+                        <label for="voltaOnibus">Data de volta:</label> <br>
+
+                        <select name="volta" id="voltaOnibus">
+                            <option value=""></option>
+                        </select>
+                    </td>
+
+                    <td>
+                        <label for="empresaOnibus">Empresa:</label> <br>
+
+                        <select name="empresa" id="empresaOnibus">
+                            <option value=""></option>
+                        </select>
+                    </td>
+
+                    <td>
+                        <label for="paradasOnibus">Paradas:</label> <br>
+
+                        <input type="number" id="paradasOnibus" min="0" list="paradaList">
+
+                        <datalist id="paradaList"></datalist>
+                    </td>
+
+                    <td>
+                        <label for="tipoOnibus">Tipo de ônibus:</label> <br>
+
+                        <select name="tipo" id="tipoOnibus">
+                            <option value=""></option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="7">
+                        <input type="button" name="findButton" value="Procurar" onclick="encontrarOnibus()">
+                        <input type="reset" value="Resetar">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>

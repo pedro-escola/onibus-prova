@@ -1,0 +1,10 @@
+
+.tabelaPrincipal tr {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#inputNumero {
+    width: 180px;
+}
