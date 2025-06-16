@@ -1,2 +1,4 @@
 # onibus-prova
-localiza os onibus legal bem legal eba
+
+# Creditos
+utiliza o [localizar-aluno](https://github.com/pedro-escola/localizar-aluno) como base
